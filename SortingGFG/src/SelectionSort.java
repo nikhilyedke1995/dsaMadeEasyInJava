@@ -25,7 +25,6 @@ public class SelectionSort {
                 int temp = arr[max];
                 arr[max] = arr[arr.length - i - 1];
                 arr[arr.length - i - 1] = temp;
-                System.out.println(Arrays.toString(arr));
             } else
                 break;
         }
