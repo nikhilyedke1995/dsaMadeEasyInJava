@@ -21,6 +21,10 @@ public class SortingInJava {
         Arrays.sort(points, Collections.reverseOrder());
         Arrays.sort(points,new MyCmp());
         Stream.of(points).forEach(System.out::println);
+
+        //Examples of stable sort : BubbleSort, InsertionSort, MergeSort
+
+        //Example of unstable sort : selection sort, quick sort, heap sort
     }
 
     private static class Point implements Comparable<Point>{
